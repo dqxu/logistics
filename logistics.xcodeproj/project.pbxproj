@@ -15,6 +15,10 @@
 		3150AD981C880D05003C18B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3150AD961C880D05003C18B2 /* LaunchScreen.storyboard */; };
 		3150ADA31C880D05003C18B2 /* logisticsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3150ADA21C880D05003C18B2 /* logisticsTests.m */; };
 		3150ADAE1C880D05003C18B2 /* logisticsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3150ADAD1C880D05003C18B2 /* logisticsUITests.m */; };
+		3150ADC41C8813F8003C18B2 /* LogisticsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3150ADC11C8813F8003C18B2 /* LogisticsViewController.m */; };
+		3150ADC81C881424003C18B2 /* UIView+DQExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3150ADC71C881424003C18B2 /* UIView+DQExtension.m */; };
+		3150ADCC1C8819BE003C18B2 /* CommonDef.m in Sources */ = {isa = PBXBuildFile; fileRef = 3150ADCB1C8819BE003C18B2 /* CommonDef.m */; };
+		3150ADCF1C881BD1003C18B2 /* CommonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3150ADCE1C881BD1003C18B2 /* CommonView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,15 @@
 		3150ADA91C880D05003C18B2 /* logisticsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = logisticsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3150ADAD1C880D05003C18B2 /* logisticsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = logisticsUITests.m; sourceTree = "<group>"; };
 		3150ADAF1C880D05003C18B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3150ADC01C8813F8003C18B2 /* LogisticsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogisticsViewController.h; sourceTree = "<group>"; };
+		3150ADC11C8813F8003C18B2 /* LogisticsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogisticsViewController.m; sourceTree = "<group>"; };
+		3150ADC31C8813F8003C18B2 /* AppMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppMacro.h; sourceTree = "<group>"; };
+		3150ADC61C881424003C18B2 /* UIView+DQExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DQExtension.h"; sourceTree = "<group>"; };
+		3150ADC71C881424003C18B2 /* UIView+DQExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DQExtension.m"; sourceTree = "<group>"; };
+		3150ADCA1C8819BE003C18B2 /* CommonDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonDef.h; sourceTree = "<group>"; };
+		3150ADCB1C8819BE003C18B2 /* CommonDef.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonDef.m; sourceTree = "<group>"; };
+		3150ADCD1C881BD1003C18B2 /* CommonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonView.h; sourceTree = "<group>"; };
+		3150ADCE1C881BD1003C18B2 /* CommonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +114,10 @@
 		3150AD871C880D05003C18B2 /* logistics */ = {
 			isa = PBXGroup;
 			children = (
+				3150ADC91C8819BE003C18B2 /* General */,
+				3150ADC51C881424003C18B2 /* Category */,
+				3150ADBF1C8813F8003C18B2 /* Controller */,
+				3150ADC21C8813F8003C18B2 /* Macro */,
 				3150AD8B1C880D05003C18B2 /* AppDelegate.h */,
 				3150AD8C1C880D05003C18B2 /* AppDelegate.m */,
 				3150AD8E1C880D05003C18B2 /* ViewController.h */,
@@ -138,6 +155,43 @@
 				3150ADAF1C880D05003C18B2 /* Info.plist */,
 			);
 			path = logisticsUITests;
+			sourceTree = "<group>";
+		};
+		3150ADBF1C8813F8003C18B2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3150ADC01C8813F8003C18B2 /* LogisticsViewController.h */,
+				3150ADC11C8813F8003C18B2 /* LogisticsViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3150ADC21C8813F8003C18B2 /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				3150ADC31C8813F8003C18B2 /* AppMacro.h */,
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		3150ADC51C881424003C18B2 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				3150ADC61C881424003C18B2 /* UIView+DQExtension.h */,
+				3150ADC71C881424003C18B2 /* UIView+DQExtension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		3150ADC91C8819BE003C18B2 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				3150ADCD1C881BD1003C18B2 /* CommonView.h */,
+				3150ADCE1C881BD1003C18B2 /* CommonView.m */,
+				3150ADCA1C8819BE003C18B2 /* CommonDef.h */,
+				3150ADCB1C8819BE003C18B2 /* CommonDef.m */,
+			);
+			path = General;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,6 +324,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3150ADCC1C8819BE003C18B2 /* CommonDef.m in Sources */,
+				3150ADC41C8813F8003C18B2 /* LogisticsViewController.m in Sources */,
+				3150ADC81C881424003C18B2 /* UIView+DQExtension.m in Sources */,
+				3150ADCF1C881BD1003C18B2 /* CommonView.m in Sources */,
 				3150AD901C880D05003C18B2 /* ViewController.m in Sources */,
 				3150AD8D1C880D05003C18B2 /* AppDelegate.m in Sources */,
 				3150AD8A1C880D05003C18B2 /* main.m in Sources */,
