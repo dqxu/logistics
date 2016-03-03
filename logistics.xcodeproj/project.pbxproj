@@ -19,6 +19,7 @@
 		3150ADC81C881424003C18B2 /* UIView+DQExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 3150ADC71C881424003C18B2 /* UIView+DQExtension.m */; };
 		3150ADCC1C8819BE003C18B2 /* CommonDef.m in Sources */ = {isa = PBXBuildFile; fileRef = 3150ADCB1C8819BE003C18B2 /* CommonDef.m */; };
 		3150ADCF1C881BD1003C18B2 /* CommonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3150ADCE1C881BD1003C18B2 /* CommonView.m */; };
+		3150ADD21C88276E003C18B2 /* logistics.png in Resources */ = {isa = PBXBuildFile; fileRef = 3150ADD11C88276E003C18B2 /* logistics.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		3150ADCB1C8819BE003C18B2 /* CommonDef.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonDef.m; sourceTree = "<group>"; };
 		3150ADCD1C881BD1003C18B2 /* CommonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonView.h; sourceTree = "<group>"; };
 		3150ADCE1C881BD1003C18B2 /* CommonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonView.m; sourceTree = "<group>"; };
+		3150ADD11C88276E003C18B2 /* logistics.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logistics.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 		3150AD871C880D05003C18B2 /* logistics */ = {
 			isa = PBXGroup;
 			children = (
+				3150ADD01C88276E003C18B2 /* screenshots */,
 				3150ADC91C8819BE003C18B2 /* General */,
 				3150ADC51C881424003C18B2 /* Category */,
 				3150ADBF1C8813F8003C18B2 /* Controller */,
@@ -192,6 +195,14 @@
 				3150ADCB1C8819BE003C18B2 /* CommonDef.m */,
 			);
 			path = General;
+			sourceTree = "<group>";
+		};
+		3150ADD01C88276E003C18B2 /* screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				3150ADD11C88276E003C18B2 /* logistics.png */,
+			);
+			path = screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -298,6 +309,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3150AD981C880D05003C18B2 /* LaunchScreen.storyboard in Resources */,
+				3150ADD21C88276E003C18B2 /* logistics.png in Resources */,
 				3150AD951C880D05003C18B2 /* Assets.xcassets in Resources */,
 				3150AD931C880D05003C18B2 /* Main.storyboard in Resources */,
 			);
@@ -556,6 +568,7 @@
 				3150ADB41C880D05003C18B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3150ADB51C880D05003C18B2 /* Build configuration list for PBXNativeTarget "logisticsTests" */ = {
 			isa = XCConfigurationList;
@@ -564,6 +577,7 @@
 				3150ADB71C880D05003C18B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3150ADB81C880D05003C18B2 /* Build configuration list for PBXNativeTarget "logisticsUITests" */ = {
 			isa = XCConfigurationList;
@@ -572,6 +586,7 @@
 				3150ADBA1C880D05003C18B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
