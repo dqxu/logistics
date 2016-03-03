@@ -1,10 +1,9 @@
 //
 //  CommonDef.m
-//  wiIos
-//
-//  Created by xuanwenchao on 11-12-22.
-//  Copyright (c) 2011年 Waptech (Beijing) Information Technologies, Ltd. All rights reserved.
-//
+
+//  Created by dqxu
+
+
 #import "CommonDef.h"
 
 #import <sys/time.h>

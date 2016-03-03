@@ -2,7 +2,7 @@
 //  CommonView.h
 //
 //
-//  Created by dqxu on
+//  Created by dqxu
 
 
 #import <UIKit/UIKit.h>

@@ -1,10 +1,6 @@
 //
 //  LogisticsViewController.m
-//  万国优品
-//
-//  Created by wgyp on 15-1-26.
-//  Copyright (c) 2015年 wgyp. All rights reserved.
-//
+//  Created by dqxu
 
 #import "LogisticsViewController.h"
 #import "AppMacro.h"
@@ -88,15 +84,6 @@
     _scrollView.showsVerticalScrollIndicator = NO;
     
     
-    //    _tableView.bounces = NO; //去掉弹簧效果
-    
-    //    _tableView.rowHeight = [YWTargetViewCell cellHeight];
-    
-//    _tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
-//
-//    
-//    _tableView.dataSource = self;
-//    _tableView.delegate = self;
     
     
     _topDockView = [[UIView alloc]initWithFrame:topviewRect];

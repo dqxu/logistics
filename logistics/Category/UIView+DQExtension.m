@@ -1,10 +1,7 @@
 
 //  UIView+DQExtension.m
 
-//
-//  Created by MJ Lee on 14-5-28.
-//  Copyright (c) 2014年 itcast. All rights reserved.
-//
+//  Created by dqxu
 
 #import "UIView+DQExtension.h"
 
